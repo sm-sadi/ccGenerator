@@ -1,0 +1,129 @@
+/*Google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{margin: 0;
+padding: 0;}
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.nav-center{
+    display: flex;
+    justify-content: space-around;
+    background-color: #696969;
+}
+.logo{
+    padding-top: .5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    overflow: auto;
+    display: block; 
+    color: white;
+}
+.nav-links li{
+   display: inline-block;
+    padding: 1rem;
+    
+}
+
+
+.nav-links{
+    list-style: none;
+    
+    
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition:all 0.3s ease-in-out;
+    display: inline;
+    
+    
+    
+  
+}
+.nav-links a:hover {
+    text-decoration: none;
+    color: lightseagreen;
+
+}
+
+.container h2{
+background-color: #1a0000 ;
+color: lightgoldenrodyellow;
+/* text-align: center; */
+max-width: 60%;
+min-width: 60%;
+margin: auto;
+padding: 1rem;
+margin-top: 10rem;
+border-radius: .5rem;
+} 
+.btn{
+    margin-top: 5rem;
+font-size: 1.2rem;
+border-radius: .25rem;
+background-color: transparent;
+/* border: double; */
+transition:all 0.2s ease-in-out;
+padding: .50rem;
+
+}
+.btn:hover{
+    background-color: #1a0000;
+    color: lightgoldenrodyellow;
+}
+.container{
+    text-align: center;
+}
+ /* about page */
+ .thanks{
+     padding: 2px;
+     text-align: center;
+ }
+.photo{
+    padding: 1rem;  
+}
+.photo img{
+    height: 12rem;
+    width: 12rem;
+    margin-top: 4rem;
+}
+.color{
+    background-color: transparent;
+}
+
+ 
+/* for mobile version */
+@media only screen and (max-width: 600px) {
+    .nav-center{
+        display: block;
+        justify-content: space-around;
+        background-color: #696969;
+        text-align: center;
+  }
+  .nav-links li a{
+    display: inline-block;
+     padding-left: 1rem;
+     padding-inline: 2rem; 
+ }
+ .container h2{
+    background-color: #1a0000 ;
+    color: lightgoldenrodyellow;
+    /* text-align: center; */
+    max-width: 80%;
+    min-width: 80%;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 8rem;
+    border-radius: .5rem;
+    } 
+.photo img{
+        height: 9rem;
+        width: 9rem;
+        margin-top: 1rem;
+    }
+
+}
